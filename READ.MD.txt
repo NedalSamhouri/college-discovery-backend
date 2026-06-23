@@ -1,0 +1,20 @@
+# College Discovery Platform - Backend MVP
+
+A production-ready database and data-access layer built with Next.js, TypeScript, PostgreSQL, and Prisma 7.
+
+## Tech Stack
+- **Language:** TypeScript
+- **Database ORM:** Prisma 7
+- **Database Provider:** PostgreSQL (Neon)
+
+## Features Implemented
+- **Relational Schema Design:** Engineered a comprehensive `College` model supporting rich data tracking (fees, regional indexes, placement statistics, and PostgreSQL string arrays for course mappings).
+- **Automated Schema Migrations:** Fully configured structural versioning scripts tracking table states.
+- **Programmatic Seeding Engine:** Includes a robust `seed.ts` file inserting 20 premium, realistic institutional records across multi-tier streams.
+
+## Getting Started
+
+### 1. Installation
+Clone the repository and install dependencies:
+```bash
+npm install
